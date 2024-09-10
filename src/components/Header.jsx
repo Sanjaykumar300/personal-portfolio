@@ -32,7 +32,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       <nav id="hamburger-nav">
-        <div className="logo">John Doe</div>
+        <div className="logo">Sanjay</div>
         <div className="hamburger-menu">
           <div
             className={`hamburger-icon ${isMenuOpen ? "open" : ""}`}
