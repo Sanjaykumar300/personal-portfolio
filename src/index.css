@@ -196,6 +196,17 @@ a:hover {
     margin-top: 100px;
     align-items: center;
   }
+#pic-img{
+  width: 200px;
+  height: 200px;
+}
+.section-profile {
+  display: flex;
+  
+  height: 200px;
+  width: 200px;
+  margin: auto 0;
+}
   article {
     font-size: 1rem;
   }
