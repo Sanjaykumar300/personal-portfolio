@@ -144,8 +144,6 @@ a:hover {
   transform: none;
 }
 
-
-
 /* mediaqueries */
 @media screen and (max-width: 1400px) {
   #profile {
@@ -202,8 +200,12 @@ a:hover {
     height: 40vh;
   }
   #profile {
+    display: flex;
+    flex-direction: column;
     height: 83vh;
-    margin-bottom: 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    align-items: center;
   }
   article {
     font-size: 1rem;
