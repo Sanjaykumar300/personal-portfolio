@@ -6,7 +6,7 @@ const Profile = () => {
     <>
       <section id="profile">
         <div className="section-profile">
-          <img src="/pic-profile.png" alt="" />
+          <img src="./pic-profile.png" alt="" />
         </div>
         <div className="section text">
           <p className="section-container-p1">Hello, I'm</p>
@@ -16,7 +16,7 @@ const Profile = () => {
             <button
               className="btn btn-color-1"
               onClick={() => {
-                window.open("/resume.pdf");
+                window.open("./resume.pdf");
               }}
             >
               Download Cv
@@ -30,7 +30,7 @@ const Profile = () => {
           </div>
           <div className="socials-container">
             <img
-              src="/linkedin.png"
+              src="./linkedin.png"
               alt=""
               className="icon"
               onClick={() => {
@@ -39,7 +39,7 @@ const Profile = () => {
               }}
             />
             <img
-              src="/github.png"
+              src="./github.png"
               alt=""
               className="icon"
               onClick={() => {

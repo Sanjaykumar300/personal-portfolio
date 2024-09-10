@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="/project-1.jpg"
+                  src="./project-1.jpg"
                   alt="Project 1"
                   className="project-img"
                 />
@@ -23,13 +23,19 @@ const Projects = () => {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = "https://github.com/Sanjaykumar300/qrcode")}
+                  onClick={() =>
+                    (window.location.href =
+                      "https://github.com/Sanjaykumar300/qrcode")
+                  }
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = "https://sanjaykumar300.github.io/qrcode/")}
+                  onClick={() =>
+                    (window.location.href =
+                      "https://sanjaykumar300.github.io/qrcode/")
+                  }
                 >
                   Live Demo
                 </button>
@@ -39,7 +45,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="/project-2.jpg"
+                  src="./project-2.jpg"
                   alt="Project 2"
                   className="project-img"
                 />
@@ -50,13 +56,19 @@ const Projects = () => {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = "https://github.com/Sanjaykumar300/gym")}
+                  onClick={() =>
+                    (window.location.href =
+                      "https://github.com/Sanjaykumar300/gym")
+                  }
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = " https://sanjaykumar300.github.io/gym/")}
+                  onClick={() =>
+                    (window.location.href =
+                      " https://sanjaykumar300.github.io/gym/")
+                  }
                 >
                   Live Demo
                 </button>
@@ -66,7 +78,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="/project-3.jpg"
+                  src="./project-3.jpg"
                   alt="Project 3"
                   className="project-img"
                 />
@@ -77,13 +89,19 @@ const Projects = () => {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = "https://github.com/Sanjaykumar300/logomark")}
+                  onClick={() =>
+                    (window.location.href =
+                      "https://github.com/Sanjaykumar300/logomark")
+                  }
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = "https://sanjaykumar300.github.io/logomark/")}
+                  onClick={() =>
+                    (window.location.href =
+                      "https://sanjaykumar300.github.io/logomark/")
+                  }
                 >
                   Live Demo
                 </button>
@@ -92,11 +110,11 @@ const Projects = () => {
           </div>
 
           <img
-        src="/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = './#contact')}
-      />
+            src="./arrow.png"
+            alt="Arrow icon"
+            className="icon arrow"
+            onClick={() => (window.location.href = "./#contact")}
+          />
         </div>
       </section>
     </>

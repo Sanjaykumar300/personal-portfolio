@@ -1,6 +1,6 @@
-import React from 'react';
-import '../experience.css';
-import '../About.css';
+import React from "react";
+import "../experience.css";
+import "../About.css";
 
 const Experience = () => {
   return (
@@ -15,7 +15,7 @@ const Experience = () => {
               <div className="article-container">
                 <article>
                   <img
-                    src="/checkmark.png"
+                    src="./checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -26,7 +26,7 @@ const Experience = () => {
                 </article>
                 <article>
                   <img
-                    src="/checkmark.png"
+                    src="./checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -37,7 +37,7 @@ const Experience = () => {
                 </article>
                 <article>
                   <img
-                    src="/checkmark.png"
+                    src="./checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -48,7 +48,7 @@ const Experience = () => {
                 </article>
                 <article>
                   <img
-                    src="/checkmark.png"
+                    src="./checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -59,7 +59,7 @@ const Experience = () => {
                 </article>
                 <article>
                   <img
-                    src="/checkmark.png"
+                    src="./checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -71,75 +71,75 @@ const Experience = () => {
               </div>
             </div>
             <div className="details-container">
-  <h2 className="experience-sub-title">Backend and Other Technology</h2>
-  <div className="article-container">
-    <article>
-      <img
-        src="/checkmark.png"
-        alt="Experience icon"
-        className="icon"
-      />
-      <div>
-        <h3>MS SQL</h3>
-        <p>Experienced</p>
-      </div>
-    </article>
-    <article>
-      <img
-        src="/checkmark.png"
-        alt="Experience icon"
-        className="icon"
-      />
-      <div>
-        <h3>Node JS</h3>
-        <p>Intermediate</p>
-      </div>
-    </article>
-    <article>
-      <img
-        src="/checkmark.png"
-        alt="Experience icon"
-        className="icon"
-      />
-      <div>
-        <h3>Express JS</h3>
-        <p>Intermediate</p>
-      </div>
-    </article>
-    <article>
-      <img
-        src="/checkmark.png"
-        alt="Experience icon"
-        className="icon"
-      />
-      <div>
-        <h3>Git</h3>
-        <p>Intermediate</p>
-      </div>
-    </article>
-    <article>
-      <img
-        src="/checkmark.png"
-        alt="Experience icon"
-        className="icon"
-      />
-      <div>
-        <h3>AWS</h3>
-        <p>Intermediate</p>
-      </div>
-    </article>
-  </div>
-</div>
-
+              <h2 className="experience-sub-title">
+                Backend and Other Technology
+              </h2>
+              <div className="article-container">
+                <article>
+                  <img
+                    src="./checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>MS SQL</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>AWS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
         <img
-        src="/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = './project')}
-      />
-
+          src="./arrow.png"
+          alt="Arrow icon"
+          className="icon arrow"
+          onClick={() => (window.location.href = "./project")}
+        />
       </section>
     </>
   );
